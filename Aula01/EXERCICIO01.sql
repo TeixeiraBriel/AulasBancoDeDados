@@ -8,7 +8,7 @@ SELECT * FROM pokemon order by total DESC limit 1;
 SELECT Numero, nome, tipo1 FROM pokemon where tipo1 = 'fire';
 #NAO TEM QUESTAO 9
 SELECT numero, nome, defesa FROM pokemon order by numero desc, nome desc, defesa desc;
-SELECT numero, nome FROM pokedex.pokemon order by taxa_captura limit 1;
+SELECT numero, nome FROM pokemon order by taxa_captura limit 1;
 SELECT * FROM pokemon WHERE tipo2 <> 'null';
 SELECT numero, nome, tipo1, tipo2 FROM pokemon where peso_kg > 100 AND peso_kg < 500;
 SELECT numero, nome, velocidade FROM pokemon order by velocidade DESC limit 10 ;
